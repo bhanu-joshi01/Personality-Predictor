@@ -1,50 +1,53 @@
-# Personality Predictor
+# 🧠 Personality Predictor
 
-Predict whether someone is an **Introvert** or an **Extrovert** using a machine learning model — all in a simple web app built with **Streamlit**.
+🚀 **Live Demo:** https://personality-predictor-bhanu.streamlit.app/
 
-👉 [Try the App Live](https://personality-predictor-bhanu.streamlit.app/)
+## 📸 Preview
 
----
-
-## ✨ Overview
-
-This web application takes behavioral inputs such as time spent alone, social activity, and media usage to predict your personality type.
-
-It is powered by a trained machine learning model and provides instant results through an interactive interface.
+<p align="center">   <img src="images/personality-predictor-home.png" alt="Personality Predictor" width="500"/> </p>
 
 ---
 
-## 🖥️ Features
+This Machine Learning + Streamlit application predicts whether a person is likely to be an Introvert or an Extrovert based on behavioral inputs.
 
-- Predicts personality: **Introvert** or **Extrovert**
-- User-friendly sliders and dropdowns
-- Instant real-time results
-- Deployed online using Streamlit Cloud
+The project was built to practice machine learning model development, deployment, and building interactive web applications using Streamlit.
 
 ---
 
-## 🧰 Tech Stack
+## ✨ Features
 
-- **Python**
-- **Streamlit**
-- **Scikit-learn**
-- **NumPy**, **Pandas**, **Joblib**
+* Predicts personality based on user input
+* Interactive and easy-to-use Streamlit interface
+* Displays prediction results instantly
+* Deployed on Streamlit Community Cloud
 
 ---
 
-## ⚠️ Disclaimer
+## 🛠️ Tech Stack
 
-This application is for **educational and experimental** use only.  
-For accurate psychological assessment, please consult a licensed professional.
+* Python
+* Streamlit
+* Scikit-learn
+* Pandas
+* NumPy
+* Joblib
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/bhanu-joshi01/Personality-Predictor.git
+cd Personality-Predictor
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ---
 
 ## 👨‍💻 Author
 
-**Bhanu Joshi**
+Made with ❤️ by **Bhanu Joshi**
 
-> “Learning by building — one project at a time.”
+If you found this project useful, consider giving it a ⭐.
 
----
-
-⭐ *If you enjoyed this project, feel free to give it a star!*
